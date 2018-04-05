@@ -52,26 +52,23 @@ This folder contains:
 **TIP:**
 The command below can be used to see help about parser.jar
 
-    java -cp "parser.jar" com.ef.Parser --help
-
+    java -cp "parser.jar" com.ef.Parser --help 
+    
  
 
   Commands example:
 
-       
-> java -cp "parser.jar" com.ef.Parser --accesslog= /path/to/file
-> --startDate= 2017-01-01.13:00:00 --duration= hourly --threshold= 100
 
+    java -cp "parser.jar" com.ef.Parser --accesslog= /path/to/file --startDate= 2017-01-01.13:00:00 --duration= hourly --threshold= 100 
+    
+ 
 Always that the command above was executed, the tables **log** and **ip_blocked** will be cleaned before the import accesslog file process.
 
 
 ----------
 
-
+    java -cp "parser.jar" com.ef.Parser --startDate= 2017-01-01.13:00:00 --duration= hourly --threshold= 100
  
->  java -cp "parser.jar" com.ef.Parser --startDate= 2017-01-01.13:00:00
-> --duration= hourly --threshold= 100
-
 In the command above the tables will not be cleaned, the parser will be done using the existing data in the table **log.**
 
 
