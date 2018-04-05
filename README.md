@@ -4,6 +4,7 @@ Test done to WalletHub Interview. For this project I used [Jcommander](jcommande
 
 
 **Deliverables Folder Structure:**
+
 ![enter image description hre](https://lh3.googleusercontent.com/qQIz_ebRurjs2C0OY50xvG9N3Z7JmdDWrz2dAYg6dVio-3sunGc6M8sHStry70LAgruVaRu1lKZNFQ)
 
  
@@ -21,6 +22,7 @@ Into the folder contains:
 		*The executable file.*
  3. **dbConfiguration.properties**
 	 *database connection file, that will be used to input the mysql connection paramns. It is mandatory for success of execution jar.*
+	 
 ![enter image description here](https://lh3.googleusercontent.com/BXMU1Qe5vo3hzokaYaMglvPfc1eOaD5CMHL8NT2Ya_VKDEeGA_FH7MsEFhgVe6Y3ZZqakfbsilH-xA)
 
 ## Sql
